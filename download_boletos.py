@@ -37,3 +37,4 @@ for indice, linha in tabela.iterrows():
             driver.find_element("xpath", '//*[@id="user"]').send_keys(login)
             driver.find_element("xpath", '//*[@id="senha"]').send_keys(senha)
             driver.find_element("xpath", '//*[@id="entrarLogin"]').click()
+driver.quit()
